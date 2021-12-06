@@ -2,7 +2,7 @@
 
 This is a minimal reprex for [issue #849](https://github.com/awslabs/aws-lambda-powertools-python/issues/849#issuecomment-986449730) in the [`aws-lambda-powertools`](https://github.com/awslabs/aws-lambda-powertools-python/) package.
 
-The file `extending_builtin_models.py` is copied from [the docs](https://awslabs.github.io/aws-lambda-powertools-python/latest/utilities/parser/#extending-built-in-models).
+The [only python file](./extending_builtin_models.py) is copied from [the docs](https://awslabs.github.io/aws-lambda-powertools-python/latest/utilities/parser/#extending-built-in-models).
 
 The `pydantic` plugin for `mypy` is configured via [`pyproject.toml`](./pyproject.toml#L17-L18); everything else is "vanilla".
 
