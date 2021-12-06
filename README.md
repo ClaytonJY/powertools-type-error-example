@@ -4,7 +4,7 @@ This is a minimal reprex for [issue #849](https://github.com/awslabs/aws-lambda-
 
 The file `extending_builtin_models.py` is copied from [the docs](https://awslabs.github.io/aws-lambda-powertools-python/latest/utilities/parser/#extending-built-in-models).
 
-The `pydantic` plugin for `mypy` is configured via `pyproject.toml`; everything else is "vanilla".
+The `pydantic` plugin for `mypy` is configured via [`pyproject.toml`](./pyproject.toml#L17-L18); everything else is "vanilla".
 
 ## Steps to reproduce
 1. have a recent version of `poetry` and a 3.9.* version of python available
